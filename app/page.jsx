@@ -246,7 +246,7 @@ export default function Home() {
       <div className="z-10 max-w-5xl w-full items-center justify-center font-mono text-sm flex">
         {oce ? (
           <div className={`${fontText.className} flex flex-col items-center`}>
-            <p className={`text-5xl mb-6 flex items-center`}>
+            <p className={`text-2xl mb-6 flex items-center`}>
               Anh cũng nhớ Bông nhiều nhắmmmmmm
               <Image alt="#" src="/tim.gif" width={150} height={150} />
             </p>
@@ -263,7 +263,7 @@ export default function Home() {
           </div>
         ) : (
           <div className={`${fontText.className} flex flex-col items-center`}>
-            <p className={`text-5xl mb-6`}>Em có nhớ anh hông ?</p>
+            <p className={`text-2xl mb-6`}>Em có nhớ anh hông ?</p>
             <Image src="/love.gif" alt="#" height={200} width={200} />
             <div className="flex justify-between w-full mt-4">
               <Button
