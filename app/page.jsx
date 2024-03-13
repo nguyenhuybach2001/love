@@ -8,8 +8,8 @@ import { Button } from "antd";
 const fontText = Pacifico({ subsets: ["latin"], weight: "400" });
 export default function Home() {
   const [position, setPosition] = useState({
-    x: Math.random() * window.innerWidth * 0.8,
-    y: Math.random() * window.innerHeight * 0.8,
+    x: 2,
+    y: 2,
   });
   const [oce, setOce] = useState(false);
   const [gifVisible, setGifVisible] = useState(false);
